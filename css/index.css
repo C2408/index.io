@@ -1,0 +1,48 @@
+@charset "utf8";
+ /*共通CSS すべてのHTMLに対してのスタイル適用*/
+/* 全体要素に対しての設定*/
+* {
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+}
+/* 全体要素に対しての設定*/
+/*bodyに対しての設定 開始*/
+body {
+ 
+}
+/*bodyに対しての設定 終了*/
+/*haederに対しての設定 開始*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #00ffff;
+    overflow: auto;
+}
+header, footer, ul, li {
+    list-style-type: none;
+    display: inline;
+}
+ul,li,a{
+   text-decoration: none;
+   padding: 23px;
+}
+/*headerに対しての設定 終了*/
+/*containerに関しての記述 開始*/
+div#top {
+    position: center;
+    top: 50;
+}
+/*containerに関しての記述 終了*/
+/*footerに対しての設定 開始*/
+footer {
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+/*footerに対しての設定 終了*/
+
