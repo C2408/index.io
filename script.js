@@ -1,5 +1,1 @@
 // JavaScript source code
-
-
-
-//sample();
