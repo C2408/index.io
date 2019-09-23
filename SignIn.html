@@ -1,30 +1,25 @@
-<?php
-
-                // //サーバー名 ユーザー名 パスワードを設定して接続する
-                // mysqli_connect("localhost","root","root");
-
-
-                // if(mysqli_connect_error()){
-                //         echo "データベースへの接続へ失敗しました。";
-                // }else{
-                //         echo"データベースへの接続へ成功しました";
-                // }
-?>
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-        <title>WEB</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="description" content="東海エリア中小企業向け会計システム開発実績ナンバーワン企業。あしたをみつめるウェブサンプル株式会社">
-        <meta name="keywords" content="会計システム, 中小企業向け,東海エリア,ウェブサンプル株式会社,帳票出力,カスタマイズ,見積無料">
-        <link rel="stylesheet" href="css/SignIn.css">
-        <link rel="shortcut icon" href="img/home.ico">
-        <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="東海エリア中小企業向け会計システム開発実績ナンバーワン企業。あしたをみつめるウェブサンプル株式会社">
+<meta name="keywords" content="会計システム, 中小企業向け,東海エリア,ウェブサンプル株式会社,帳票出力,カスタマイズ,見積無料">
+<link rel="stylesheet" href="css/SignIn.css">
+<link rel="stylesheet" media="screen and (max-width:800px)" href="css/SignIn.css">
+<link rel="shortcut icon" href="img/home.ico">
+<title>サンプルHP</title>
 </head>
-<body>  
+<body>
+<div id="pagebody">
 
+        <!-- ヘッダ -->
+        <div id="header">
+        <h1><a href="index.html"><img src="img/home.png" alt="ウェブサンプル株式会社"></a></h1>
+        </div>
+        
 
-<!-- メインメニュー -->
+       <!-- メインメニュー -->
 <ul id="menu">
 <li><a href="index.html">ホーム</a></li>
 <li><a href="product.html">製品紹介</a></li>
@@ -51,19 +46,9 @@
 </form>
 </div>
 
-<footer>
-        <ul>
-                <li><a href="">sample</a></li>
-                <li><a href="">sample</a></li>
-                <li><a href="">sample</a></li>
-                <li><a href="">sample</a></li>
-                <li><a href="">sample</a></li>
-                <li><a href="">sample</a></li>
-                <li><a href="">sample</a></li>
-        </ul>
-</footer>
+        <!-- フッタ -->
+        <div id="footer"><small>Copyright (c) ウェブサンプル株式会社 All Rights Reserved.</small></div>
 
-
-<script src="js/index.js"></script>
+</div>
 </body>
 </html>

@@ -23,13 +23,18 @@ body {
 /*============================================
 ヘッダ
 ============================================*/
+div#header img{
+	width: 50px;
+	height: 50px;
+}
+
+
 
 /*============================================
 メインメニュー
 ============================================*/
 ul#menu {
 	width:1200px; height:60px; 	/*メインメニュー部分の幅と高さ*/
-	
 	position: relative;
 	top: 50px;
 	left: 500px;
@@ -80,10 +85,15 @@ footer {
 	padding:10px 0px 0px 0px;	/*パディング*/
 	font-size:small;		/*フォントサイズを小さくする*/
 	text-align:center;		/*センタリング*/
+
 }
-footer ul li{
-		display: inline;
-		padding-left: 60px;
-		position: fixed;
-		bottom: 0;
+div#footer {
+	clear:both;			/*フロート配置をクリアする*/
+	height:40px;			/*高さの指定*/
+	padding:10px 0px 0px 0px;	/*パディング*/
+	font-size:x-small;		/*フォントサイズを小さくする*/
+	text-align:center;		/*センタリング*/
+	position: fixed;
+	bottom: 0;
+	left: 900px;
 }
