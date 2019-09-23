@@ -21,16 +21,7 @@ div#pagebody {
 	background-image:url("img/t.jpg");	/*コンテンツ全体の背景画像*/
 	background-repeat:repeat-y;	/*背景画像を縦方向に繰り返す*/
 }
-video {
-position: fixed;
-right: 0;
-bottom: 0;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: 2;
-}
+
 /*============================================
 ヘッダ
 ============================================*/
