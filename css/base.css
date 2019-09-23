@@ -34,13 +34,17 @@ div#header h1 {
 	font-family:Arial, Helvetica, sans-serif;	/*フォントの種類*/
 }
 div#header h1 a {text-decoration:none;} /*リンクの下線を無くす*/
-img {border:0;} 			/*画像のボーダーを0にする*/
+img {
+		border:0;	/*画像のボーダーを0にする*/
+		width: 50px;
+		height: 50px;
+	} 			
 
 /*============================================
 メインメニュー
 ============================================*/
 ul#menu {
-	width:960px; height:50px; 	/*メインメニュー部分の幅と高さ*/
+	width:1200px; height:50px; 	/*メインメニュー部分の幅と高さ*/
 	margin:0px 20px; 		/*上下マージン0px、左右マージン20px*/
 }
 #menu li {
@@ -52,7 +56,7 @@ ul#menu {
 	background-color:navy;		/*背景色*/
 	color:#ffffff;			/*文字色*/
 	display:block;			/*リンク部分をブロック表示にする*/
-	width:240px; height:35px;	/*幅と高さ*/
+	width:360px; height:35px;	/*幅と高さ*/
 	padding:15px 0px 0px 0px;	/*上パディング*/
 	text-align:center;		/*テキストをセンター揃えにする*/
 	text-decoration:none;		/*リンク部分を下線無しにする*/
